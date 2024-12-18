@@ -6,12 +6,11 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   loader.style.display = 'block';
 
-  fetch(form.action, {
+  fetch('https://formsubmit.co/hiltonvidz15@gmail.com', {
     method: 'POST',
     body: new FormData(form),
     headers: {
       'Accept': 'application/json',
-      'Content-Type': 'multipart/form-data; boundary=---------------------------boundary'
     }
   })
   .then((response) => {
@@ -32,6 +31,6 @@ form.addEventListener('submit', (e) => {
     alert.textContent = 'Error submitting form!';
     alert.classList.remove('alert-success');
     alert.classList.add('alert-danger');
-    console.error(error);
+    console.error('Error submitting form:', error);
   });
 });
