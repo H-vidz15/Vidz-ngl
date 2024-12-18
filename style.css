@@ -7,7 +7,7 @@ background-color: #ffcccc;
 max-width: 500px;
 margin: 40px auto;
 padding: 20px;
-background-color: #fff;
+background-color: #ffcccc;
 border: 1px solid #ddd;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -39,7 +39,7 @@ padding: 10px;
 font-size: 16px;
 border: none;
 border-radius: 5px;
-background-color: #333;
+background-color: #000;
 color: #fff;
 cursor: pointer;
 }
