@@ -1,0 +1,110 @@
+body {
+font-family: Arial, sans-serif;
+background-image:url("im.jpeg");
+background-size:cover;
+color: #FFFFFF;
+}
+
+.form {
+max-width: 500px;
+margin: 40px auto;
+padding: 20px;
+background-color: #ffcccc;
+border: 1px solid #ddd;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+margin-bottom: 40px;
+}
+
+.form-control {
+width: 100%;
+height: 40%;
+padding: 10px;
+font-size: 16px;
+border: 1.5px solid #E13B3B;
+border-radius: 25px;
+}
+
+.form-check-input {
+margin-right: 10px;
+}
+
+.form-check-label {
+font-size: 16px;
+}
+
+.btn {
+width: 100%;
+height: 40px;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #E13B3B;
+border-radius: 25px;
+background-color: #000;
+color: #fff;
+cursor: pointer;
+}
+
+.btn:hover {
+background-color: #444;
+}
+
+.loader {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border: 5px solid #f3f3f3;
+border-top: 5px solid #333;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+0% {
+transform: translate(-50%, -50%) rotate(0deg);
+}
+100% {
+transform: translate(-50%, -50%) rotate(360deg);
+}
+}
+
+.alert {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 5px;
+background-color: #f0f0f0;
+color: #333;
+font-size: 16px;
+display: none;
+}
+
+.alert-success {
+background-color: #dff0d8;
+color: #3c763d;
+}
+
+.alert-danger {
+background-color: #f2dede;
+color: #a94442;
+}
+
+.h1 {
+text-align: center;
+margin: 35px 0 20px 0 !important;
+}
+.col{
+  width: 100%;
+  height:10%;
+}
+.container{
+  
+}
