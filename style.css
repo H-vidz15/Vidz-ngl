@@ -1,6 +1,8 @@
 body {
 font-family: Arial, sans-serif;
-background-color: #FFCCCC;
+background-image:url("im.jpeg");
+background-size:cover;
+color: #FFFFFF;
 }
 
 .form {
@@ -13,7 +15,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
-margin-bottom: 20px;
+margin-bottom: 40px;
 }
 
 .form-control {
@@ -38,7 +40,7 @@ width: 100%;
 height: 40px;
 padding: 10px;
 font-size: 16px;
-border: 1px solid #FFCCCC;
+border: 1px solid #E13B3B;
 border-radius: 25px;
 background-color: #000;
 color: #fff;
@@ -102,4 +104,7 @@ margin: 35px 0 20px 0 !important;
 .col{
   width: 100%;
   height:10%;
-  }
+}
+.container{
+  
+}
