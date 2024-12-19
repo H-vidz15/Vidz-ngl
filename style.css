@@ -1,8 +1,7 @@
 body {
 font-family: Arial, sans-serif;
-background-image:url('im.jpeg');
-background-size:cover;
-color: #FFFFFF;
+background-color:#FFCCCC;
+color: #000;
 }
 
 .form {
