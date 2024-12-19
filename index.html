@@ -10,6 +10,7 @@
   <h1>ꪜﺃᦔɀ ꪀᧁꪶ</h1>
 <form action="https://api.web3forms.com/submit" method="POST" id="myForm" enctype="multipart/form-data">
 <input type="hidden" name="access_key" value="04fb98c8-3efd-4bb8-81fd-3afc55a5e4b4">
+<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 <div class="form-group">
 <label for="name">Full Name:</label>
 <input type="text" name="name" class="form-control" placeholder="Full Name" required>
@@ -31,10 +32,9 @@
 <label class="form-check-label">I agree to the terms and conditions.</label>
 <div class="invalid-feedback"></div>
 </div>
-<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 </div>
-<input type="hidden" name="redirect" value="https://web3forms.com/success">
-<button type="submit">Submit</button>
+<input type="public" name="redirect" value="https://web3forms.com/success">
+<button type="submit" class="btn btn-lg btn-dark btn-block">Submit</button>
 <div class="loader" style="display:none;"></div>
 <div class="alert alert-success" style="display:none;"></div>
 </form>
